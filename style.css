@@ -1,0 +1,252 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.nav ul li a:hover {
+    background-color:#eb1230;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.nav ul{
+    float: right;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.for-header{
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+}
+
+.bg-image{
+    background-image: url('./images/bg1.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+
+}
+
+#bg-text a {
+    color: white;
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#bg-text p {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.background-container {
+    background: black;
+}
+
+#bg-text {
+    position: absolute;
+    top: 300px;
+    left: 450px;
+}
+
+.number1  img {
+    width: 25%;
+    float: left;
+    max-height: 250px;
+    min-height: 250px;
+    object-fit: cover;
+}
+
+.number1 {
+    padding: 0 10px 0 10px;
+}
+
+.number2{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 70px;
+}
+
+.number2 a {
+    font-size: 32px;
+    font-weight: bold;
+}
+.col-2 img {
+    width: 380px;
+}
+
+.number3{
+    display: grid;
+    grid-template-columns: auto auto ;
+    width: 850px;
+    margin: auto auto;
+    column-gap: 0;
+}
+.col-1 a {
+    font-size: 18px;
+    display: block;
+    margin-top: 100px;
+    padding: 0 30px 0 30px;
+}
+
+.col-1{
+    background-color: rgb(70, 168, 78);
+}
+
+.cc2 {
+    background-color: rgb(156, 49, 181);
+}
+
+.cc2 a {
+    color: white;
+}
+
+.mine1 img {
+    width: 100%;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.whatwedo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 1200px;
+    margin: auto auto;
+    column-gap: 30px;
+    margin-top: 80px;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 40px  0 40px 0;
+}
+
+.mine1 h3{
+    text-align: center;
+    color: white;
+}
+
+.mine1 h3 {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+footer {
+    margin-top: 80px;
+    background-color: rgb(238, 238, 238);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1000px;
+    margin: auto auto;
+}
+
+.sc1 li {
+    list-style: none;
+    text-align: left;
+}
+
+.sc1 li a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 2.2;
+    color: black;
+}
+
+.sc1 li:hover {
+    color: red;
+}
+
+.sc1 li a:hover {
+    color: red;
+}
+
+.pine {
+    width: 80vw;
+    height: 250px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .pine:hover .controls {
+        opacity: 1;}
+    
+.controls {
+      opacity: 0;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      justify-content: space-between;
+      width: 100%;
+      z-index: 99999;
+      transition: all ease 0.5s;
+    
+    }
+      
+.control {
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.7);
+        opacity: .5;
+        transition: ease .3s;
+        cursor: pointer;
+    
+    }
+
+    .control:hover {
+        opacity: 1;
+      }
+    
+      .slides {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        width: 100%;
+        transition: 1s ease-in-out all;
+      }
+        
+        .slide {
+          min-width: 100%;
+          min-height: 250px;
+          height: auto;
+  }
+  
