@@ -1,25 +1,3 @@
-script.js
-Who has access
-Not shared
-System properties
-Type
-JavaScript
-Size
-801 bytes
-Storage used
-801 bytes
-Location
-website
-Owner
-me
-Modified
-31 Aug 2022 by me
-Opened
-12:50 by me
-Created
-31 Aug 2022 with ZIP Extractor
-Add a description
-Viewers can download
 const delay = 3000; //ms
 
 const slides = document.querySelector(".slides");
